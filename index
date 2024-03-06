@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruben I. Regual - Curriculum Vitae</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        h1, h2, h3, h4 {
+            margin: 10px 0;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Ruben I. Regual</h1>
+            <p>Address: Your Address</p>
+            <p>Email: your.email@example.com</p>
+            <p>Phone: +1234567890</p>
+        </header>
+        
+        <section class="section">
+            <h2>Education</h2>
+            <ul>
+                <li>Degree, Institution, Year</li>
+                <li>Degree, Institution, Year</li>
+            </ul>
+        </section>
+        
+        <section class="section">
+            <h2>Experience</h2>
+            <ul>
+                <li>Position, Company, Dates</li>
+                <li>Position, Company, Dates</li>
+            </ul>
+        </section>
+        
+        <section class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML/CSS</li>
+                <li>JavaScript</li>
+                <li>Problem-solving</li>
+            </ul>
+        </section>
+        
+        <section class="section">
+            <h2>Projects</h2>
+            <ul>
+                <li>Personal Portfolio Website - Developed a responsive portfolio website showcasing my projects and skills.</li>
+                <li>Task Management App - Created a web application to manage tasks efficiently with features like task assignment, deadline tracking, and priority management.</li>
+            </ul>
+        </section>
+        
+        <section class="section">
+            <h2>Languages</h2>
+            <ul>
+                <li>Language 1 - Proficiency</li>
+                <li>Language 2 - Proficiency</li>
+            </ul>
+        </section>
+        
+        <footer>
+            <p>References available upon request</p>
+        </footer>
+    </div>
+</body>
+</html>
