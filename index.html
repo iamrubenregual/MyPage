@@ -3,83 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ruben I. Regual - Curriculum Vitae</title>
+    <title>Personal Details</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #333333; /* Dark gray background */
             margin: 0;
             padding: 0;
         }
         .container {
-            max-width: 800px;
+            max-width: 600px;
             margin: 20px auto;
-            padding: 0 20px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        h1, h2, h3, h4 {
-            margin: 10px 0;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        .section {
+        h1 {
+            text-align: center;
+            color: #333;
             margin-bottom: 20px;
+            font-size: 32px;
+            text-transform: uppercase;
+        }
+        h2 {
+            color: #4CAF50;
+            font-size: 24px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+        .details p {
+            margin-bottom: 10px;
+            color: #555;
+        }
+        .details p span {
+            font-weight: bold;
+            color: #333;
+        }
+        .divider {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ccc;
+        }
+        .details p:last-child {
+            margin-bottom: 0;
+        }
+        .icon {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            text-align: center;
+            border-radius: 50%;
+            line-height: 20px;
+            margin-right: 5px;
+        }
+        .work-experience,
+        .skills {
+            margin-top: 30px;
+        }
+        .work-experience h2,
+        .skills h2 {
+            margin-top: 10px;
+        }
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skills-container div {
+            flex: 0 0 calc(33.33% - 20px); /* Three columns with some margin */
+            margin-right: 20px;
+            margin-bottom: 10px;
+            color: #555;
+        }
+        @media (max-width: 480px) {
+            .skills-container div {
+                flex: 0 0 calc(50% - 20px); /* Two columns on smaller screens */
+            }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Ruben I. Regual</h1>
-            <p>Address: Your Address</p>
-            <p>Email: your.email@example.com</p>
-            <p>Phone: +1234567890</p>
-        </header>
-        
-        <section class="section">
-            <h2>Education</h2>
-            <ul>
-                <li>Degree, Institution, Year</li>
-                <li>Degree, Institution, Year</li>
-            </ul>
-        </section>
-        
-        <section class="section">
-            <h2>Experience</h2>
-            <ul>
-                <li>Position, Company, Dates</li>
-                <li>Position, Company, Dates</li>
-            </ul>
-        </section>
-        
-        <section class="section">
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML/CSS</li>
-                <li>JavaScript</li>
-                <li>Problem-solving</li>
-            </ul>
-        </section>
-        
-        <section class="section">
-            <h2>Projects</h2>
-            <ul>
-                <li>Personal Portfolio Website - Developed a responsive portfolio website showcasing my projects and skills.</li>
-                <li>Task Management App - Created a web application to manage tasks efficiently with features like task assignment, deadline tracking, and priority management.</li>
-            </ul>
-        </section>
-        
-        <section class="section">
-            <h2>Languages</h2>
-            <ul>
-                <li>Language 1 - Proficiency</li>
-                <li>Language 2 - Proficiency</li>
-            </ul>
-        </section>
-        
-        <footer>
-            <p>References available upon request</p>
-        </footer>
+
+<div class="container">
+    <div class="details">
+        <h2>Basic Information</h2>
+        <p><span class="icon">N</span><span>Name:</span> Ruben I. Regual</p>
+        <p><span class="icon">E</span><span>Email:</span> iamrubenregual@gmail.com </p>
+        <p><span class="icon">P</span><span>Phone:</span> +1 (555) 123-4567</p>
+        <p><span class="icon">A</span><span>Address:</span> Agus Road, Lapu-Lapu City Philippines</p>
+        <p><span class="icon">D</span><span>Date of Birth:</span> August 1985</p>
     </div>
+
+    <div class="work-experience">
+        <h2>Work Experience</h2>
+        <p><span class="icon">W</span>Optum Global Solutions - Sr. Software Engineer. - 2010 to Present</p>
+        <p> It is part of UnitedHealth Group, one of the largest healthcare companies globally. Optum provides a wide range of services, including healthcare data analytics, technology-enabled health services, pharmacy care services, population health management, and more. The company aims to improve the quality, affordability, and accessibility of healthcare through innovative solutions and advanced technologies.</p>
+        <p><span class="icon">W</span>Paint The Web Asia - Web Developer - 2008 to 2010</p>
+        <p>A leading web development agency specializing in creating customized and user-friendly websites for real estate sales companies. With a dedicated team of developers, designers, and digital marketing experts, we strive to provide innovative solutions tailored to meet the unique needs of our clients in the real estate industry.</p>
+    </div>
+
+    <div class="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div><span class="icon">S</span>VBA/Access</div>
+            <div><span class="icon">S</span>Visual Basic 6.0</div>
+            <div><span class="icon">S</span>C#.net / VB.net</div>
+            <div><span class="icon">S</span>ASP.net/MVC</div>
+            <div><span class="icon">S</span>Java</div>
+            <div><span class="icon">S</span>Android Development</div>
+            <div><span class="icon">S</span>RDBMS/SQL/MYSQL</div>
+            <div><span class="icon">S</span>react</div>
+            
+        </div>
+    </div>
+</div>
+
 </body>
 </html>
